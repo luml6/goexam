@@ -1,0 +1,168 @@
+{
+	"ImportPath": "notepad-api",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/astaxie/beego",
+			"Comment": "v1.7.2-2-gb55e20a",
+			"Rev": "b55e20ac60c5c2f4ec9612ec68a48cb94cfaab42"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/config",
+			"Comment": "v1.7.2-2-gb55e20a",
+			"Rev": "b55e20ac60c5c2f4ec9612ec68a48cb94cfaab42"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/context",
+			"Comment": "v1.7.2-2-gb55e20a",
+			"Rev": "b55e20ac60c5c2f4ec9612ec68a48cb94cfaab42"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/grace",
+			"Comment": "v1.7.2-2-gb55e20a",
+			"Rev": "b55e20ac60c5c2f4ec9612ec68a48cb94cfaab42"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/logs",
+			"Comment": "v1.7.2-2-gb55e20a",
+			"Rev": "b55e20ac60c5c2f4ec9612ec68a48cb94cfaab42"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/session",
+			"Comment": "v1.7.2-2-gb55e20a",
+			"Rev": "b55e20ac60c5c2f4ec9612ec68a48cb94cfaab42"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/toolbox",
+			"Comment": "v1.7.2-2-gb55e20a",
+			"Rev": "b55e20ac60c5c2f4ec9612ec68a48cb94cfaab42"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/utils",
+			"Comment": "v1.7.2-2-gb55e20a",
+			"Rev": "b55e20ac60c5c2f4ec9612ec68a48cb94cfaab42"
+		},
+		{
+			"ImportPath": "github.com/satori/go.uuid",
+			"Comment": "v1.1.0-1-g0aa62d5",
+			"Rev": "0aa62d5ddceb50dbcb909d790b5345affd3669b6"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "f09c4662a0bd6bd8943ac7b4931e185df9471da4"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2",
+			"Comment": "r2016.08.01-5-g3f83fa5",
+			"Rev": "3f83fa5005286a7fe593b055f0d7771a7dce4655"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/bson",
+			"Comment": "r2016.08.01-5-g3f83fa5",
+			"Rev": "3f83fa5005286a7fe593b055f0d7771a7dce4655"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/json",
+			"Comment": "r2016.08.01-5-g3f83fa5",
+			"Rev": "3f83fa5005286a7fe593b055f0d7771a7dce4655"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/sasl",
+			"Comment": "r2016.08.01-5-g3f83fa5",
+			"Rev": "3f83fa5005286a7fe593b055f0d7771a7dce4655"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/scram",
+			"Comment": "r2016.08.01-5-g3f83fa5",
+			"Rev": "3f83fa5005286a7fe593b055f0d7771a7dce4655"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v5",
+			"Comment": "v5.2.9",
+			"Rev": "a16aeec10ff407b1e7be6dd35797ccf5426ef0f0"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v5/internal",
+			"Comment": "v5.2.9",
+			"Rev": "a16aeec10ff407b1e7be6dd35797ccf5426ef0f0"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v5/internal/consistenthash",
+			"Comment": "v5.2.9",
+			"Rev": "a16aeec10ff407b1e7be6dd35797ccf5426ef0f0"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v5/internal/hashtag",
+			"Comment": "v5.2.9",
+			"Rev": "a16aeec10ff407b1e7be6dd35797ccf5426ef0f0"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v5/internal/pool",
+			"Comment": "v5.2.9",
+			"Rev": "a16aeec10ff407b1e7be6dd35797ccf5426ef0f0"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v5/internal/proto",
+			"Comment": "v5.2.9",
+			"Rev": "a16aeec10ff407b1e7be6dd35797ccf5426ef0f0"
+		},
+		{
+			"ImportPath": "qiniupkg.com/api.v7/api",
+			"Comment": "v7.0.5-34-g427efe3",
+			"Rev": "427efe34a76257db04b3b785e3b4d2fdb44cf9b9"
+		},
+		{
+			"ImportPath": "qiniupkg.com/api.v7/auth/qbox",
+			"Comment": "v7.0.5-34-g427efe3",
+			"Rev": "427efe34a76257db04b3b785e3b4d2fdb44cf9b9"
+		},
+		{
+			"ImportPath": "qiniupkg.com/api.v7/conf",
+			"Comment": "v7.0.5-34-g427efe3",
+			"Rev": "427efe34a76257db04b3b785e3b4d2fdb44cf9b9"
+		},
+		{
+			"ImportPath": "qiniupkg.com/api.v7/kodo",
+			"Comment": "v7.0.5-34-g427efe3",
+			"Rev": "427efe34a76257db04b3b785e3b4d2fdb44cf9b9"
+		},
+		{
+			"ImportPath": "qiniupkg.com/api.v7/kodocli",
+			"Comment": "v7.0.5-34-g427efe3",
+			"Rev": "427efe34a76257db04b3b785e3b4d2fdb44cf9b9"
+		},
+		{
+			"ImportPath": "qiniupkg.com/x/bytes.v7",
+			"Rev": "f512abcf45ab4e2ba0fd4784c57b53d495997d66"
+		},
+		{
+			"ImportPath": "qiniupkg.com/x/bytes.v7/seekable",
+			"Rev": "f512abcf45ab4e2ba0fd4784c57b53d495997d66"
+		},
+		{
+			"ImportPath": "qiniupkg.com/x/ctype.v7",
+			"Rev": "f512abcf45ab4e2ba0fd4784c57b53d495997d66"
+		},
+		{
+			"ImportPath": "qiniupkg.com/x/log.v7",
+			"Rev": "f512abcf45ab4e2ba0fd4784c57b53d495997d66"
+		},
+		{
+			"ImportPath": "qiniupkg.com/x/reqid.v7",
+			"Rev": "f512abcf45ab4e2ba0fd4784c57b53d495997d66"
+		},
+		{
+			"ImportPath": "qiniupkg.com/x/rpc.v7",
+			"Rev": "f512abcf45ab4e2ba0fd4784c57b53d495997d66"
+		},
+		{
+			"ImportPath": "qiniupkg.com/x/url.v7",
+			"Rev": "f512abcf45ab4e2ba0fd4784c57b53d495997d66"
+		},
+		{
+			"ImportPath": "qiniupkg.com/x/xlog.v7",
+			"Rev": "f512abcf45ab4e2ba0fd4784c57b53d495997d66"
+		}
+	]
+}

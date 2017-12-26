@@ -1,0 +1,36 @@
+{
+    "Docker":
+    {
+        "ImageDomain":"notepad/notepad-api",
+        "PortList":["50047:8088","8099:22"],
+        "DockerFilePath":"./dockerfile/"
+    },
+    "SysTest":
+    [
+        {
+            "TestName":"TestCase1",
+            "ScriptPath":"./nose",
+            "RunCmd": "nosetests category.py"
+        },
+        {
+            "TestName":"TestCase2",
+            "ScriptPath":"./nose",
+            "RunCmd": "nosetests note.py"
+        },
+        {
+            "TestName":"TestCase3",
+            "ScriptPath":"./nose",
+            "RunCmd": "nosetests sync.py"
+        },
+        {
+            "TestName":"TestCase4",
+            "ScriptPath":"./nose",
+            "RunCmd": "nosetests user.py"
+        },
+         {
+            "TestName":"TestCase5",
+            "ScriptPath":"./nose",
+            "RunCmd": "nosetests vote.py"
+        }
+    ]
+}
